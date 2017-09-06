@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="uncheck"
+        android:id="@+id/checkAll"
+        android:checkable="true"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/checkbox_off_background"/>
+
+
+    <item android:title="submit"
+        android:id="@+id/submit"
+        android:orderInCategory="200"
+        app:showAsAction="always"/>
+</menu>
